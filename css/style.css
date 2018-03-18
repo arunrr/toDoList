@@ -52,3 +52,7 @@ label {
 input[type="checkbox"]:checked + label {
   text-decoration: line-through;
   color: rgba(0, 0, 0, 0.8); }
+
+.bg-dark {
+  background-color: #66A5AD;
+  color: white; }

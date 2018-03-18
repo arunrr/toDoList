@@ -1,11 +1,4 @@
-*{
+* {
     margin: 0;
-    padding:0;
-}
-body {
-    background: linear-gradient(#003B46, #C4DFE6);
-    background-repeat: no-repeat;
-    min-height: 100%;
-    background-attachment: fixed;
-    width: auto;
+    padding: 0;
 }

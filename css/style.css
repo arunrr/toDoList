@@ -5,3 +5,13 @@ body {
   background: linear-gradient(#003B46, white);
   background-repeat: no-repeat;
   background-attachment: fixed; }
+
+.wrapper {
+  width: 400px;
+  height: 300px;
+  border: 6px solid #66A5AD;
+  border-radius: 1rem;
+  background-color: #C4DFE6;
+  position: fixed;
+  top: 30%;
+  left: 35%; }

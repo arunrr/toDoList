@@ -9,3 +9,13 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.wrapper{
+    width: 400px;
+    height: 300px;
+    border: 6px solid $primary;
+    border-radius: 1rem;
+    background-color: $light;
+    position: fixed;
+    top: 30%;
+    left: 35%;
+}

@@ -7,6 +7,13 @@ $primary : #66A5AD;
 $boxHeight : 300px;
 $boxWidth : 500px;
 
+%item-position{
+
+    position: relative;
+    top: 15px;
+    
+}
+
 body{
     background: linear-gradient($dark,white);
     background-repeat: no-repeat;
@@ -43,14 +50,12 @@ span{
 }
 input[type = "checkbox"]{
     float: right;
-    position: relative;
-    top: 10px;
+    @extend %item-position;
     right: 10px;
 }
 label{
-    position: relative;
-    top: 10px;
-    left: 10px;
+   @extend %item-position;
+   left: 10px;
 }
 input[type="checkbox"]:checked + label{
     text-decoration: line-through;

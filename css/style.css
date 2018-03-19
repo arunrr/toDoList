@@ -1,3 +1,7 @@
+input[type="checkbox"], label {
+  position: relative;
+  top: 15px; }
+
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(#003B46), to(white));
   background: -webkit-linear-gradient(#003B46, white);
@@ -40,13 +44,9 @@ span {
 
 input[type="checkbox"] {
   float: right;
-  position: relative;
-  top: 10px;
   right: 10px; }
 
 label {
-  position: relative;
-  top: 10px;
   left: 10px; }
 
 input[type="checkbox"]:checked + label {

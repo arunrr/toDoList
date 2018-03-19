@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash|Righteous");
 input[type="checkbox"], label {
   position: relative;
-  top: 15px; }
+  top: 30px; }
 
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(#003B46), to(white));
@@ -12,7 +13,7 @@ body {
 
 .wrapper {
   width: 500px;
-  height: 300px;
+  height: 450px;
   border: 6px solid #66A5AD;
   border-radius: 20px;
   background-color: #C4DFE6;
@@ -31,7 +32,8 @@ body {
   border-radius: 9px; }
 
 span {
-  font-size: 2rem; }
+  font-size: 2.5rem;
+  font-family: 'Berkshire Swash', cursive; }
 
 .lists {
   height: 100%;
@@ -39,7 +41,9 @@ span {
 
 .items {
   width: 100%;
-  height: 18%; }
+  height: 18%;
+  font-family: 'Righteous', cursive;
+  font-size: 1.4rem; }
 
 input[type="checkbox"] {
   float: right;

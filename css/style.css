@@ -26,10 +26,9 @@ body {
   background: -webkit-linear-gradient(#66A5AD, white);
   background: -o-linear-gradient(#66A5AD, white);
   background: linear-gradient(#66A5AD, white);
-  height: 35px;
+  height: 45px;
   width: 100%;
-  border-radius: 8px;
-  border-bottom: dashed 2px #003B46; }
+  border-radius: 9px; }
 
 span {
   font-size: 2rem; }
@@ -56,3 +55,8 @@ input[type="checkbox"]:checked + label {
 .bg-dark {
   background-color: #66A5AD;
   color: white; }
+
+.fa {
+  color: #003B46;
+  padding: 10px;
+  margin-left: -10px; }
